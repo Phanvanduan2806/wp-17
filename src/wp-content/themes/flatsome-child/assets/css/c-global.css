@@ -1,0 +1,51 @@
+/* font */
+:root {
+  --main-font: "Montserrat", sans-serif;
+}
+body {
+  font-family: var(--main-font);
+}
+
+body {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: var(--main-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* header */
+#header {
+  font-family: "Work Sans", sans-serif;
+}
+/* c-title */
+.c-title {
+  font-size: 63px;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+.c-title h1,
+.c-title h2,
+.c-title h3 .c-title h4,
+.c-title p {
+  margin-bottom: 0;
+}
+.c-title-orange {
+  color: #f7941e;
+}
+.c-title-black {
+  color: #1f2f3b;
+}
+
+.c-sub-title {
+  font-size: 26px;
+  color: #f7941e;
+  font-weight: 700;
+}

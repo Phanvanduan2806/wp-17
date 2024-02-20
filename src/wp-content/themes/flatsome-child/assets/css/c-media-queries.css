@@ -1,0 +1,448 @@
+/*==========  Non-Mobile First Method  ==========*/
+@media (min-width:1200px) {
+    footer .reset-row {
+        padding: 0px 50px;
+    }
+
+    .c-latest-job .button {
+        padding: 16px 40px;
+    }
+
+    .c-get-in-touch .button {
+        padding: 16px 40px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .task-solution {
+        border-radius: unset !important;
+    }
+
+    .c-partner .list-item .item {
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+    }
+
+    .c-partner .item .box-image {
+        width: 20% !important;
+    }
+
+    .c-partner .item-1 .box-image {
+        width: 30% !important;
+    }
+
+    header .header-top .container {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+    header .header-main .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    footer .reset-row .col {
+        flex-basis: auto;
+        max-width: 100%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .footer-col-form {
+        max-width: 50% !important;
+        flex-basis: 50% !important;
+    }
+
+    .footer-bottom .stack {
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+
+    .footer-bottom .stack .social-icons {
+        display: flex;
+    }
+
+    footer p,
+    footer a,
+    footer p a {
+        font-size: 14px;
+    }
+
+    footer .c-footer h3 {
+        font-size: 17px !important;
+    }
+
+    .c-home-2 h2.c-title {
+        font-size: 42px;
+    }
+}
+
+@media (min-width:992px) {
+    .c-blog-post .box-text .post-title {
+        font-size: 31px;
+    }
+
+}
+
+@media (max-width:850px) {
+    .join-team-bottom .button {
+        width: 100%;
+    }
+    .c-chi-tiet-bai-viet h1 {
+        font-size: 2rem !important;
+    }
+
+    .c-meet-team-title h1 {
+        font-size: 42px !important;
+        text-align: center;
+    }
+
+    .meet-team-heading .col-inner {
+        text-align: center;
+    }
+
+    .meet-team-heading h2 {
+        font-size: 1rem;
+    }
+
+    .meet-team-heading h3,
+    .meet-team-heading h4 {
+        font-size: 42px !important;
+    }
+
+    .company-des h2 {
+        text-align: center;
+    }
+
+    .company-des h3 {
+        font-size: 42px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .company-more p:nth-child(1)::before {
+        font-size: 30px !important;
+    }
+
+    .company-more p:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .c-our-culture h3 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .c-our-culture .button {
+        width: 100%;
+        padding: 10px 40px !important;
+    }
+
+    .c-latest-job .col-inner {
+        text-align: center !important;
+    }
+
+    .c-latest-job .stack {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .c-latest-job .stack .button {
+        width: 100%;
+        margin: unset !important;
+    }
+
+    .c-get-in-touch h2 {
+        font-size: 26px !important;
+    }
+
+    .c-get-in-touch .button {
+        width: 100%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    /* ---- Item join team ---- */
+    .join-team .row .col {
+        padding: 10px !important;
+    }
+
+    .join-team .row .col .col-inner {
+        border: 1px solid #E9993F;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .join-team .icon-box::after {
+        display: none;
+    }
+
+    .join-team .row .col {
+        max-width: 50% !important;
+        flex-basis: 50% !important;
+    }
+    .join-team .row .col .col-inner{
+        height: 100%;
+    }
+
+    .join-team .item-2,
+    .join-team .item-4,
+    .join-team .item-5,
+    .join-team .item-7,
+    .join-team .item-10,
+    .join-team .item-12 {
+        display: none;
+    }
+
+    .join-team .item-1 {
+        order: 1;
+    }
+
+    .join-team .item-3 {
+        order: 2;
+    }
+
+    .join-team .item-6 {
+        order: 4;
+    }
+
+    .join-team .item-8 {
+        order: 3;
+    }
+
+    .join-team .item-9 {
+        order: 5;
+    }
+
+    .join-team .item-11 {
+        order: 6;
+    }
+
+    .join-team .item-13 {
+        order: 7;
+    }
+
+    .join-team .item-14 {
+        order: 8;
+    }
+    .join-team .item-14 .box-image{
+        width: 80% !important;
+    }
+  
+    /* ----End Item join team ---- */
+
+
+    .c-latest-job h3,
+    .c-latest-job h4 {
+        font-size: 42px !important;
+        line-height: 1.1;
+        margin: unset;
+    }
+
+    .c-latest-job p {
+        font-size: 1rem !important;
+    }
+
+
+    .c-slider2 h3 {
+        font-size: 1.12rem !important;
+    }
+
+    .testimonial-heading p {
+        font-size: 32px;
+    }
+
+    .c-slider2 .text::before {
+        font-size: 40px !important;
+    }
+
+    .title-blog h1 {
+        font-size: 52px !important;
+    }
+
+    .task-solution {
+        padding: 30px;
+    }
+
+    .task-solution .icon-box {
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .task-solution h3 {
+        text-align: center;
+    }
+
+    .task-solution p {
+        text-align: center;
+    }
+
+    .row-tittle .icon-box .icon-box-text h2 span {
+        font-size: 32px !important;
+    }
+
+    .software-title h2 {
+        font-size: 32px !important;
+        text-align: center;
+    }
+
+    .software-title h3 {
+        font-size: 21px !important;
+        text-align: center;
+    }
+
+    .row-tittle .icon-box-img {
+        width: 70px !important;
+    }
+
+    .software-list-item {
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+    }
+
+    .software-logo {
+        display: none;
+    }
+
+
+    .c-banner .box-text {
+        height: 35vh;
+    }
+
+    .header-nav-main li {
+        margin: 0;
+    }
+
+    .header-main .header-nav-main .menu-item a {
+        padding: 7px;
+    }
+
+    .software-title h2,
+    .software-title p {
+        text-align: center;
+    }
+
+    /* --------- Home#2 item ----------*/
+    .home-2-layout {
+        grid-template-rows: auto;
+        grid-template-columns: unset;
+    }
+
+    .home-2-item {
+        padding: 0px 50px;
+        grid-row: unset !important;
+        grid-column: unset !important;
+    }
+
+    .item-number {
+        top: 0 !important;
+        left: 0;
+        bottom: unset !important;
+        width: unset !important;
+        height: 100%;
+        transform: unset !important;
+        align-items: flex-start !important;
+    }
+
+    .item-number-cricle {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        font-size: 14px;
+        border: 3px solid #E9993F;
+    }
+
+    .home-2-item .item-number::after {
+        width: 3px !important;
+        height: 100%;
+        right: 50%;
+        transform: translateX(50%);
+        top: unset;
+        left: unset !important;
+    }
+
+    .item-5 .item-number::after {
+        height: 10%;
+    }
+
+    .item-1 .item-number::after {
+        height: 90%;
+        top: 10%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .join-team .row .col {
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+    }
+    .footer-col-form {
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+    }
+
+    .c-partner .item .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c-partner .item .box .box-text-inner {
+        align-items: center;
+    }
+
+    .c-partner .item .box .box-text-inner h2,
+    .c-partner .item .box .box-text-inner p {
+        text-align: center;
+    }
+
+    .c-partner .item .box .box-image {
+        width: 40% !important;
+    }
+
+    .c-partner .item .button {
+        width: 100% !important;
+    }
+
+    .c-partner .item h2 {
+        font-size: 21px !important;
+    }
+
+    .c-partner .item p {
+        font-size: 17px !important;
+    }
+    .join-team-bottom .col .col-inner {
+        padding: 20px !important;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .c-banner .box-text {
+        height: 30vh;
+    }
+
+    .c-banner .stack .button span {
+        font-size: 0.8rem;
+    }
+
+    .task-solution {
+        padding: 20px 0px !important;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .c-banner .box-text {
+        height: 25vh;
+    }
+}
